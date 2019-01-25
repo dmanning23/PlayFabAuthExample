@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{C4FEB55C-85E5-4641-97A9-786CA6C0346B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>App1</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\IPlayFabPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\ISerializerPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\ITransportPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Json\ISerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Json\NewtonsoftWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Json\SimpleJson.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabAuthenticationAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabAuthenticationModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabClientAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabClientModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabCloudScriptAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabCloudScriptModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabDataAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabDataModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabErrors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabFileUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabGroupsAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabGroupsModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabHttp\IPlayFabHttp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabHttp\PlayFabHttp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabHttp\PlayFabSysHttp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabHttp\PlayFabWinHttp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabLocalizationAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabLocalizationModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabMultiplayerAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabMultiplayerModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabProfilesAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabProfilesModels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PluginContract.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\PluginManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Properties\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\PluginManagerTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\tests\HttpTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\tests\PlayFabApiTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\UUnitAssertException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\UUnitIncrementalTestRunner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\UUnitTestCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\UUnitTestContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\UUnitTestReport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\Uunit\UUnitTestSuite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayFab\WsaReflectionExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)PlayFab\PlayFabSDK.csproj" />
+  </ItemGroup>
+</Project>
