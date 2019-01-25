@@ -56,7 +56,7 @@ namespace PlayFabExample
 
 			try
 			{
-				font = Content.Load<SpriteFont>(@"Fonts\TestFont");
+				font = Content.Load<SpriteFont>(@"TestFont");
 			}
 			catch (Exception ex)
 			{

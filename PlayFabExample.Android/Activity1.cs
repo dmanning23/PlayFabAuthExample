@@ -2,16 +2,17 @@ using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Android.Views;
+using PlayFabExample;
 
-namespace PlayFabExample.Android
+namespace PlayFabExample2
 {
-	[Activity(Label = "PlayFabExample"
+	[Activity(Label = "PlayFabExample2"
 		, MainLauncher = true
 		, Icon = "@drawable/icon"
 		, Theme = "@style/Theme.Splash"
 		, AlwaysRetainTaskState = true
-		, LaunchMode = LaunchMode.SingleInstance
-		, ScreenOrientation = ScreenOrientation.SensorPortrait
+		, LaunchMode = Android.Content.PM.LaunchMode.SingleInstance
+		, ScreenOrientation = ScreenOrientation.Portrait
 		, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.Keyboard | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenSize | ConfigChanges.ScreenLayout)]
 	public class Activity1 : Microsoft.Xna.Framework.AndroidGameActivity
 	{
