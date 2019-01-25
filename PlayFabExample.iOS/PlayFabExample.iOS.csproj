@@ -15,6 +15,7 @@
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+	<MonoGamePlatform>iOS</MonoGamePlatform>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -154,5 +155,5 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\PlayFab.SharedProject\PlayFab.projitems" Label="Shared" />
-  <Import Project="..\PlayFabExample.SharedProject\PlayFabExample.projitems" Label="Shared" />
+  <Import Project="..\PlayFabExample.SharedProject\PlayFabExample.SharedProject.projitems" Label="Shared" />
 </Project>
