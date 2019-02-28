@@ -53,6 +53,9 @@
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="OpenTK-1.0" />
+    <Reference Include="PlayFabBuddy.Core.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PlayFabBuddy.Core.2.0.0\lib\MonoAndroid10\PlayFabBuddy.Core.Android.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
@@ -87,7 +90,6 @@
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
-  <Import Project="..\PlayFab.SharedProject\PlayFab.projitems" Label="Shared" />
   <Import Project="..\PlayFabExample.SharedProject\PlayFabExample.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
