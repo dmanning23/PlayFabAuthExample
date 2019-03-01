@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using PlayFab;
 using PlayFab.ClientModels;
+using PlayFabBuddyLib;
 using System;
 using System.Threading.Tasks;
 
@@ -38,7 +39,11 @@ namespace PlayFabExample
 		/// </summary>
 		protected override void Initialize()
 		{
-			// TODO: Add your initialization logic here
+			//The PlayFab wrapper we are going to use to make calls, instead of using the static PlayFabClientSDK object.
+			var playFabClient = new PlayFabClient("144");
+
+			//Add to MonoGame's built-in IoC container
+			this.Services.AddService<IPlayFabClient>(playFabClient);
 
 			base.Initialize();
 		}
@@ -116,9 +121,12 @@ namespace PlayFabExample
 
 		private void LogIntoPlayFab()
 		{
-			PlayFabSettings.TitleId = "144";
+			//create the login request
 			var request = new LoginWithCustomIDRequest { CustomId = "GettingStartedGuide", CreateAccount = true };
-			var loginTask = PlayFabClientAPI.LoginWithCustomIDAsync(request);
+
+			//get the playfab client from the IoC container
+			var playFabClient = Services.GetService<IPlayFabClient>();
+			var loginTask = playFabClient.LoginWithCustomIDAsync(request);
 			loginTask.ContinueWith(OnLoginComplete);
 		}
 
