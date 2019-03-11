@@ -68,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="FacebookLoginBuddy.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FBLoginBuddy.2.0.2\lib\net451\FacebookLoginBuddy.WindowsDX.dll</HintPath>
+    </Reference>
     <Reference Include="FilenameBuddy.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FilenameBuddy.2.0.1\lib\net452\FilenameBuddy.WindowsDX.dll</HintPath>
     </Reference>
@@ -102,13 +105,10 @@
       <HintPath>..\packages\SimpleStorage.1.4.19\lib\net45\PerpetualEngine.SimpleStorage.Desktop.dll</HintPath>
     </Reference>
     <Reference Include="PlayFabBuddy.Auth.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.Auth.2.0.8\lib\net451\PlayFabBuddy.Auth.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\PlayFabBuddy.Auth.2.0.10\lib\net451\PlayFabBuddy.Auth.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="PlayFabBuddy.Core.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.Core.2.0.2\lib\net451\PlayFabBuddy.Core.WindowsDX.dll</HintPath>
-    </Reference>
-    <Reference Include="PlayFabBuddy.LoginScreen.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.LoginScreen.2.0.0\lib\net451\PlayFabBuddy.LoginScreen.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\PlayFabBuddy.Core.2.0.4\lib\net451\PlayFabBuddy.Core.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.DeviceInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xam.Plugin.DeviceInfo.4.1.1\lib\net45\Plugin.DeviceInfo.dll</HintPath>
@@ -175,6 +175,12 @@
     <None Include="app.config" />
     <None Include="app.manifest" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PlayFabBuddy.LoginScreen\PlayFabBuddy.LoginScreen.WindowsDX\PlayFabBuddy.LoginScreen.WindowsDX.csproj">
+      <Project>{e6c446e2-aaff-4e87-9498-6f7854ec3566}</Project>
+      <Name>PlayFabBuddy.LoginScreen.WindowsDX</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabBuddy.LoginScreen.Example.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

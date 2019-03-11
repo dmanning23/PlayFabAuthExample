@@ -107,6 +107,24 @@
     <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Facebook.CoreKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Facebook.CoreKit.iOS.4.39.1\lib\Xamarin.iOS10\Facebook.CoreKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.LoginKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Facebook.LoginKit.iOS.4.39.1\lib\Xamarin.iOS10\Facebook.LoginKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.MarketingKit, Version=1.0.6982.41002, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Facebook.MarketingKit.iOS.4.39.1\lib\Xamarin.iOS10\Facebook.MarketingKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.PlacesKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Facebook.PlacesKit.iOS.4.39.1\lib\Xamarin.iOS10\Facebook.PlacesKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.ShareKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Facebook.ShareKit.iOS.4.39.1\lib\Xamarin.iOS10\Facebook.ShareKit.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookLoginBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FBLoginBuddy.2.0.2\lib\Xamarin.iOS10\FacebookLoginBuddy.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="FilenameBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FilenameBuddy.2.0.1\lib\Xamarin.iOS10\FilenameBuddy.iOS.dll</HintPath>
     </Reference>
@@ -141,13 +159,13 @@
       <HintPath>..\packages\SimpleStorage.1.4.19\lib\Xamarin.iOS10\PerpetualEngine.SimpleStorage.iOS.dll</HintPath>
     </Reference>
     <Reference Include="PlayFabBuddy.Auth.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.Auth.2.0.8\lib\Xamarin.iOS10\PlayFabBuddy.Auth.iOS.dll</HintPath>
+      <HintPath>..\packages\PlayFabBuddy.Auth.2.0.10\lib\Xamarin.iOS10\PlayFabBuddy.Auth.iOS.dll</HintPath>
     </Reference>
     <Reference Include="PlayFabBuddy.Core.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.Core.2.0.2\lib\Xamarin.iOS10\PlayFabBuddy.Core.iOS.dll</HintPath>
+      <HintPath>..\packages\PlayFabBuddy.Core.2.0.4\lib\Xamarin.iOS10\PlayFabBuddy.Core.iOS.dll</HintPath>
     </Reference>
     <Reference Include="PlayFabBuddy.LoginScreen.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.LoginScreen.2.0.0\lib\Xamarin.iOS10\PlayFabBuddy.LoginScreen.iOS.dll</HintPath>
+      <HintPath>..\packages\PlayFabBuddy.LoginScreen.2.0.1\lib\Xamarin.iOS10\PlayFabBuddy.LoginScreen.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.DeviceInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xam.Plugin.DeviceInfo.4.1.1\lib\xamarinios10\Plugin.DeviceInfo.dll</HintPath>

@@ -3,20 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlayFabBuddy.LoginScreen.Example.SharedProject", "PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabBuddy.LoginScreen.Example.SharedProject.shproj", "{C3B68E27-AAB2-4F9F-AB19-CBAB58AA5D3C}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlayFabLoginExample..SharedProject", "PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabLoginExample..SharedProject.shproj", "{C3B68E27-AAB2-4F9F-AB19-CBAB58AA5D3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayFabBuddy.LoginScreen.Example.WindowsDX", "PlayFabBuddy.LoginScreen.Example\PlayFabBuddy.LoginScreen.Example.WindowsDX.csproj", "{C45C7089-06C4-4B68-A095-63489B708C87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayFabLoginExample.WindowsDX", "PlayFabBuddy.LoginScreen.Example\PlayFabLoginExample.WindowsDX.csproj", "{C45C7089-06C4-4B68-A095-63489B708C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayFabBuddy.LoginScreen.Example.Android", "PlayFabBuddy.LoginScreen.Example.Android\PlayFabBuddy.LoginScreen.Example.Android.csproj", "{BF44322B-E258-415A-80D6-D99C832F64C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayFabLoginExample.Android", "PlayFabBuddy.LoginScreen.Example.Android\PlayFabLoginExample.Android.csproj", "{BF44322B-E258-415A-80D6-D99C832F64C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayFabAuthExample.iOS", "PlayFabAuthExample.iOS\PlayFabAuthExample.iOS.csproj", "{875F7CDA-DB4D-47CF-858C-FD0862693EAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayFabLoginExample.iOS", "PlayFabAuthExample.iOS\PlayFabLoginExample.iOS.csproj", "{875F7CDA-DB4D-47CF-858C-FD0862693EAE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlayFabBuddy.LoginScreen.SharedProject", "..\PlayFabBuddy.LoginScreen\PlayFabBuddy.LoginScreen.SharedProject\PlayFabBuddy.LoginScreen.SharedProject.shproj", "{7D33C39A-242F-4705-9462-E54CFFE2DEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayFabBuddy.LoginScreen.WindowsDX", "..\PlayFabBuddy.LoginScreen\PlayFabBuddy.LoginScreen.WindowsDX\PlayFabBuddy.LoginScreen.WindowsDX.csproj", "{E6C446E2-AAFF-4E87-9498-6F7854EC3566}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\PlayFabBuddy.LoginScreen\PlayFabBuddy.LoginScreen.SharedProject\PlayFabBuddy.LoginScreen.SharedProject.projitems*{7d33c39a-242f-4705-9462-e54cffe2dec0}*SharedItemsImports = 13
 		PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabBuddy.LoginScreen.Example.SharedProject.projitems*{875f7cda-db4d-47cf-858c-fd0862693eae}*SharedItemsImports = 4
 		PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabBuddy.LoginScreen.Example.SharedProject.projitems*{bf44322b-e258-415a-80d6-d99c832f64c0}*SharedItemsImports = 4
 		PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabBuddy.LoginScreen.Example.SharedProject.projitems*{c3b68e27-aab2-4f9f-ab19-cbab58aa5d3c}*SharedItemsImports = 13
 		PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabBuddy.LoginScreen.Example.SharedProject.projitems*{c45c7089-06c4-4b68-a095-63489b708c87}*SharedItemsImports = 4
+		..\PlayFabBuddy.LoginScreen\PlayFabBuddy.LoginScreen.SharedProject\PlayFabBuddy.LoginScreen.SharedProject.projitems*{e6c446e2-aaff-4e87-9498-6f7854ec3566}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -141,6 +147,38 @@ Global
 		{875F7CDA-DB4D-47CF-858C-FD0862693EAE}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{875F7CDA-DB4D-47CF-858C-FD0862693EAE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{875F7CDA-DB4D-47CF-858C-FD0862693EAE}.Release|x86.ActiveCfg = Release|iPhone
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.AppStore|x86.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Debug|x86.Build.0 = Debug|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|iPhone.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|x86.ActiveCfg = Release|Any CPU
+		{E6C446E2-AAFF-4E87-9498-6F7854EC3566}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
