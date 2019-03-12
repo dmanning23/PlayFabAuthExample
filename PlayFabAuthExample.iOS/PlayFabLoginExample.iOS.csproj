@@ -165,7 +165,7 @@
       <HintPath>..\packages\PlayFabBuddy.Core.2.0.4\lib\Xamarin.iOS10\PlayFabBuddy.Core.iOS.dll</HintPath>
     </Reference>
     <Reference Include="PlayFabBuddy.LoginScreen.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.LoginScreen.2.0.1\lib\Xamarin.iOS10\PlayFabBuddy.LoginScreen.iOS.dll</HintPath>
+      <HintPath>..\packages\PlayFabBuddy.LoginScreen.2.0.2\lib\Xamarin.iOS10\PlayFabBuddy.LoginScreen.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.DeviceInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xam.Plugin.DeviceInfo.4.1.1\lib\xamarinios10\Plugin.DeviceInfo.dll</HintPath>
