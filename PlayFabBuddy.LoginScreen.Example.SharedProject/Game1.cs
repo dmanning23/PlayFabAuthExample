@@ -1,7 +1,5 @@
 ﻿using MenuBuddy;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 using PlayFab;
 using PlayFab.ClientModels;
 using PlayFabBuddyLib;
@@ -31,12 +29,20 @@ namespace PlayFabBuddy.LoginScreen.Example
 			var client = new PlayFabClient("YOUR PLAYFAB APP ID!!!");
 			var auth = new PlayFabAuthService(client);
 
+			//Store the playfab services in the MonoGame IoC container
 			Services.AddService<IPlayFabClient>(client);
 			Services.AddService<IPlayFabAuthService>(auth);
 
+			//The OnDisplayAuthentication event is triggered when the user needs to login
 			auth.OnDisplayAuthentication += Auth_OnDisplayAuthentication;
+
+			//The OnLoggingIn event is triggered while the auth service is communicating with the PlayFab backend 
 			auth.OnLoggingIn += Auth_OnLoggingIn;
+
+			//OnLoginSuccess event is triggered after the user has successfully logged into the PlayFab backend
 			auth.OnLoginSuccess += Auth_OnLoginSuccess;
+
+			//There was an error logging in: Could be anything from bad username/password, wifi disconnect, or fatal error
 			auth.OnPlayFabError += Auth_OnPlayFabError;
 		}
 
