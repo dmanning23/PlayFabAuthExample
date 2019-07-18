@@ -10,6 +10,7 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:SpriteFontPlus.Content.dll
 
 #---------------------------------- Content ---------------------------------#
 
@@ -104,6 +105,11 @@
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
 /build:Fonts/ArialBlack96.spritefont
+
+#begin Fonts/ariblk.ttf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:Fonts/ariblk.ttf
 
 #begin gradient.png
 /importer:TextureImporter

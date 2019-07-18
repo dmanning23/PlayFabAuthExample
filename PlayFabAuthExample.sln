@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlayFabLoginExample..SharedProject", "PlayFabBuddy.LoginScreen.Example.SharedProject\PlayFabLoginExample..SharedProject.shproj", "{C3B68E27-AAB2-4F9F-AB19-CBAB58AA5D3C}"
 EndProject
