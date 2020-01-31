@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework;
 using PlayFabBuddyLib.Auth;
 using ResolutionBuddy;
 using System;
+using System.Threading.Tasks;
 
 namespace PlayFabBuddy.LoginScreen.Example
 {
@@ -25,9 +26,9 @@ namespace PlayFabBuddy.LoginScreen.Example
 		{
 		}
 
-		public override void LoadContent()
+		public override async Task LoadContent()
 		{
-			base.LoadContent();
+			await base.LoadContent();
 
 			Auth = ScreenManager.Game.Services.GetService<IPlayFabAuthService>();
 			Auth.OnLoginSuccess -= Auth_OnLoginSuccess;
