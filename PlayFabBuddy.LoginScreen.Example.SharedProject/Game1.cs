@@ -12,7 +12,7 @@ namespace PlayFabBuddy.LoginScreen.Example
 #if __IOS__ || ANDROID || WINDOWS_UAP
 	public class Game1 : TouchGame
 #else
-	public class Game1 : MouseGame
+	public class Game1 : ControllerGame
 #endif
 	{
 		public Game1()
@@ -44,6 +44,13 @@ namespace PlayFabBuddy.LoginScreen.Example
 
 			//There was an error logging in: Could be anything from bad username/password, wifi disconnect, or fatal error
 			auth.OnPlayFabError += Auth_OnPlayFabError;
+		}
+
+		protected override void InitStyles()
+		{
+			LoginStyleSheet.DisplayNameFontResource = @"Fonts\ariblk";
+
+			base.InitStyles();
 		}
 
 		private void Auth_OnLoggingIn()

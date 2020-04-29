@@ -11,11 +11,11 @@ namespace PlayFabBuddy.LoginScreen.Example
 	/// <summary>
 	/// The main menu screen is the first thing displayed when the game starts up.
 	/// </summary>
-	public class MainMenuScreen : MenuScreen, IMainMenu
+	public class MainMenuScreen : MenuStackScreen, IMainMenu
 	{
 		IPlayFabAuthService Auth { get; set; }
-		IMenuEntry _clearMenuEntry;
-		IMenuEntry _clearAuthMenuEntry;
+		IButton _clearMenuEntry;
+		IButton _clearAuthMenuEntry;
 		ILabel _id;
 
 		/// <summary>
@@ -112,6 +112,10 @@ namespace PlayFabBuddy.LoginScreen.Example
 			{
 				_id.Text = Auth.PlayFabId;
 			}
+		}
+
+		public override void Cancelled(object obj, ClickEventArgs e)
+		{
 		}
 	}
 }

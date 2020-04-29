@@ -72,7 +72,7 @@
       <HintPath>..\packages\FilenameBuddy.2.0.8\lib\net452\FilenameBuddy.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyLib.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.2.0.15\lib\net451\FontBuddyLib.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.2.0.16\lib\net451\FontBuddyLib.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyPlusLib.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FontBuddyPlus.2.0.6\lib\net451\FontBuddyPlusLib.WindowsDX.dll</HintPath>
@@ -81,16 +81,16 @@
       <HintPath>..\packages\GameTimer.2.0.0\lib\net452\GameTimer.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="HadoukInput.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HadoukInput.2.0.27\lib\net451\HadoukInput.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\HadoukInput.2.0.32\lib\net451\HadoukInput.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="InputHelper.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\InputHelper.2.0.6\lib\net451\InputHelper.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\InputHelper.2.0.7\lib\net451\InputHelper.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="MatrixExtensions.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MatrixExtensions.2.0.0\lib\net451\MatrixExtensions.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="MenuBuddy.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.2.0.58\lib\net451\MenuBuddy.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.2.0.66\lib\net451\MenuBuddy.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.7.1.189\lib\net45\MonoGame.Framework.dll</HintPath>
@@ -114,7 +114,7 @@
       <HintPath>..\packages\PlayFabBuddy.DisplayName.2.0.2\lib\net451\PlayFabBuddy.DisplayName.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="PlayFabBuddy.LoginScreen.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayFabBuddy.LoginScreen.2.0.37\lib\net451\PlayFabBuddy.LoginScreen.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\PlayFabBuddy.LoginScreen.2.0.38\lib\net451\PlayFabBuddy.LoginScreen.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="Plugin.DeviceInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xam.Plugin.DeviceInfo.4.1.1\lib\net45\Plugin.DeviceInfo.dll</HintPath>
@@ -159,7 +159,7 @@
       <HintPath>..\packages\SpriteFontPlus.MonoGame.0.7.0.22\lib\net45\SpriteFontPlus.dll</HintPath>
     </Reference>
     <Reference Include="StateMachineBuddy.WindowsDX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StateMachineBuddy.2.0.19\lib\net451\StateMachineBuddy.WindowsDX.dll</HintPath>
+      <HintPath>..\packages\StateMachineBuddy.2.0.20\lib\net451\StateMachineBuddy.WindowsDX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Numerics" />
@@ -178,7 +178,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\SpriteFontPlus.Content.dll" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
